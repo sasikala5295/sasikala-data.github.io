@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sasikala Kumar's Azure Data Engineer portfolio featuring Azure Data Factory, Databricks, PySpark, ADLS Gen2 and Delta Lake projects.">
+  <title>Sasikala Kumar | Azure Data Engineer</title>
+
+  <style>
+    :root {
+      --navy: #10243a;
+      --blue: #1769aa;
+      --light: #f3f7fb;
+      --text: #253449;
+      --muted: #607087;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: var(--text);
+      background: var(--light);
+      line-height: 1.7;
+    }
+
+    nav {
+      background: var(--navy);
+      color: white;
+      padding: 16px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 16px;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 76px 8%;
+      background: linear-gradient(130deg, #10243a, #1769aa);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 52px);
+      line-height: 1.2;
+      margin: 12px 0;
+    }
+
+    .hero p { max-width: 680px; }
+
+    .tag {
+      display: inline-block;
+      padding: 5px 12px;
+      border-radius: 20px;
+      background: #e0efff;
+      color: #174d7b;
+      font-size: 13px;
+      margin: 4px 3px 4px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 11px 18px;
+      margin: 10px 8px 0 0;
+      border-radius: 6px;
+      background: white;
+      color: var(--navy);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: white;
+      border: 1px solid white;
+    }
+
+    section {
+      padding: 52px 8%;
+      scroll-margin-top: 20px;
+    }
+
+    section h2 {
+      color: var(--navy);
+      font-size: 28px;
+      margin-top: 0;
+    }
+
+    .card {
+      background: white;
+      padding: 23px;
+      border-radius: 12px;
+      border: 1px solid #e1e8f0;
+      box-shadow: 0 5px 18px #10243a0a;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .project h3 { margin-top: 0; }
+
+    .project a, .text-link {
+      color: var(--blue);
+      font-weight: bold;
+    }
+
+    .muted { color: var(--muted); }
+
+    footer {
+      text-align: center;
+      padding: 26px;
+      background: var(--navy);
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      nav { padding: 16px 5%; }
+      nav a { margin: 0 10px 0 0; }
+      .hero, section { padding: 42px 5%; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <strong>Sasikala Kumar</strong>
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <p>AZURE DATA ENGINEER PORTFOLIO</p>
+    <h1>Building Reliable<br>Cloud Data Pipelines</h1>
+    <p>
+      Azure Data Engineer with 3 years of hands-on experience
+      building and supporting data engineering solutions using
+      Azure Data Factory, Azure Databricks, ADLS Gen2, PySpark
+      and SQL.
+    </p>
+
+    <span class="tag">Azure Data Factory</span>
+    <span class="tag">Azure Databricks</span>
+    <span class="tag">PySpark</span>
+    <span class="tag">Delta Lake</span>
+
+    <br>
+
+    <!-- Replace the URLs below with your actual profile links. -->
+    <a class="btn" href="https://github.com/YOUR-USERNAME">
+      View GitHub
+    </a>
+    <a class="btn btn-outline"
+       href="https://www.linkedin.com/in/sasikala-kumar/">
+      LinkedIn Profile
+    </a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am an Azure Data Engineer focused on building reliable,
+        scalable and maintainable ETL/ELT pipelines. My technical
+        interests include cloud data ingestion, incremental data
+        loading, distributed data processing and lakehouse
+        architecture.
+      </p>
+      <p>
+        I enjoy solving data pipeline challenges, validating
+        source-to-target data, troubleshooting ingestion issues
+        and improving data quality. I am continuing to strengthen
+        my hands-on skills through practical Azure and Databricks
+        projects.
+      </p>
+      <p>
+        <strong>Career goal:</strong> To contribute to a data
+        engineering team where I can build dependable data
+        solutions and continue growing technically.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card">
+      <h3>Cloud and Ingestion</h3>
+      <span class="tag">Azure Data Factory</span>
+      <span class="tag">ADLS Gen2</span>
+      <span class="tag">Azure SQL</span>
+      <span class="tag">REST APIs</span>
+      <span class="tag">Incremental Loads</span>
+
+      <h3>Data Engineering</h3>
+      <span class="tag">Azure Databricks</span>
+      <span class="tag">PySpark</span>
+      <span class="tag">Spark SQL</span>
+      <span class="tag">Delta Lake</span>
+      <span class="tag">Medallion Architecture</span>
+
+      <h3>Development and Quality</h3>
+      <span class="tag">SQL</span>
+      <span class="tag">Python</span>
+      <span class="tag">Data Validation</span>
+      <span class="tag">Git</span>
+      <span class="tag">Azure DevOps</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <p class="muted">
+      Practical projects demonstrating cloud ingestion,
+      transformation, data quality and pipeline design.
+    </p>
+
+    <div class="grid">
+
+      <article class="card project">
+        <h3>01. End-to-End Azure Data Pipeline</h3>
+        <p>
+          Build a pipeline to ingest sample sales data into
+          ADLS Gen2 using Azure Data Factory, transform the
+          data with Databricks and PySpark, and store curated
+          results in Delta tables.
+        </p>
+        <p><strong>Tools:</strong> ADF, ADLS Gen2, Databricks,
+          PySpark, Delta Lake</p>
+        <p><strong>Implementation goals:</strong> Incremental
+          loading, data validation, error handling and
+          Bronze/Silver/Gold layers.</p>
+        <p class="muted">Status: Planned / in progress</p>
+        <!-- Add a real project repository link when available. -->
+      </article>
+
+      <article class="card project">
+        <h3>02. Metadata-Driven Ingestion</h3>
+        <p>
+          Design a reusable ingestion framework driven by
+          configuration metadata to process multiple tables
+          or files without duplicating pipeline logic.
+        </p>
+        <p><strong>Tools:</strong> ADF, parameterized datasets,
+          Lookup, ForEach, ADLS Gen2</p>
+        <p><strong>Implementation goals:</strong> Reusability,
+          logging, retry handling and load tracking.</p>
+        <p class="muted">Status: Planned / in progress</p>
+      </article>
+
+      <article class="card project">
+        <h3>03. Databricks Data Quality Pipeline</h3>
+        <p>
+          Transform raw data with PySpark, handle schema
+          mismatches, remove duplicates, validate required
+          fields and write curated data to Delta tables.
+        </p>
+        <p><strong>Tools:</strong> Databricks, PySpark,
+          Spark SQL, Delta Lake</p>
+        <p><strong>Implementation goals:</strong> Data quality
+          checks, incremental MERGE, audit counts and
+          troubleshooting documentation.</p>
+        <p class="muted">Status: Planned / in progress</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="card">
+      <ul>
+        <li>Microsoft Certified: Azure Data Fundamentals (DP-900)</li>
+        <li>Microsoft Certified: Fabric Data Engineer Associate (DP-700)</li>
+        
+      </ul>
+      <p class="muted">
+        List only certifications you have earned and use
+        their exact official titles.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <div class="card">
+      <p>
+        I am interested in Azure Data Engineer and Databricks
+        Data Engineer opportunities where I can contribute
+        to reliable data pipelines and cloud data platforms.
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a class="text-link"
+           href="mailto:sasikaladhiran1612@gmail.com">
+         sasikaladhiran1612@gmail.com
+        </a>
+      </p>
+      <p>
+        <strong>GitHub:</strong>
+        <a class="text-link"
+           href="https://github.com/sasikala5295">
+          View repositories
+        </a>
+      </p>
+      <p>
+        <strong>LinkedIn:</strong>
+        <a class="text-link"
+           href="https://www.linkedin.com/in/sasikala-kumar//">
+          Connect with me
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Sasikala Kumar | Azure Data Engineer Portfolio</p>
+  </footer>
+
+</body>
+</html>
